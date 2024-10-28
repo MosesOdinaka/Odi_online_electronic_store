@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>ODI Online Electronics and Gadgets</title>
+        <style>
+            /* Basic styling for the entire page */
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: #f9f9f9;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+            /* Header styling */
+            header {
+                background-color: #41caf5;
+                color: white;
+                margin: 5px;
+                padding: 20px;
+                text-align: center;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+            /* Content styling */
+            .content {
+                background-color: #fff;
+                margin: 20px;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .content p {
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+            /* Footer styling */
+            footer {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome To ODI Online Electronics and Gadgets Store!</h1>
+        </header>
+
+        <div class="content">
+            <p id="message">Would you like to be our online retailer? We give amazine discout when you buy in bulk.</p>
+            <button onClick="changeContent()">Click to Sign In</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 ODI inc. All rights reserved.</p>
+        </footer>a
+
+        <script>
+            // JavaScript funtion to change the content
+            function changeContent() {
+                document.getElementById("message").innerHTML = "You're Signed In!";
+            }
+        </script>
+    </body>
+</html>
